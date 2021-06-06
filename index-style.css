@@ -1,0 +1,77 @@
+body {
+  background-image: url('sfondo.jpg');
+  background-size: cover;
+}
+
+.contenuto {  /*Rettangolo nero trasparente*/
+  width: 1160px;
+  height: 750px;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+header > img {
+  width: 250px;
+}
+header {   /* Logo e titolo */
+  text-align: center;
+  padding-top: 70px;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #33cc33;
+}
+
+
+div > nav { /* rettangolo menu navigazione */
+  width: 960px;
+  height: 40px;
+  margin: auto;
+  background-color: #33cc33;
+  text-align: center;
+}
+nav > div {
+  padding-top: 10px;
+}
+
+
+main {
+  width: 960px;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main h2 {
+  display: inline-block;
+  margin: 0px;
+}
+
+main p {
+  margin: 5px;
+}
+
+main section {
+  margin-top: 20px;
+}
+
+section > div {  /*Barra della batteria*/
+  height: 25px;
+  border-radius: 5px;
+}
+
+
+#yellow-charge {
+  width: 400px;
+  background-color: #e6b800
+}
+#green-charge {
+  width: 600px;
+  background-color: #33cc33
+}
+#red-charge {
+  width: 200px;
+  background-color: #ff4d4d
+}
