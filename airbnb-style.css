@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: gold;
+}
+
+.ionia {
+  background-image: url("https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fionia-the-great-monasteries.jpg&resize=:1200");
+  height: 100vh;
+  background-size: cover;
+}
+
+
+.shurima {
+  background-image: url("https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fshurima_cascade_01.jpg&resize=:1200");
+  height: 100vh;
+}
+
+
+.targon {
+  background-image: url("https://am-a.akamaihd.net/image?f=https%3A%2F%2Funiverse-meeps.leagueoflegends.com%2Fv1%2Fassets%2Fimages%2Fmttargon-divine-carvings.jpg&resize=:1200");
+  height: 100vh;
+}
+
+
+.pic {
+  margin: 2px;
+  position: relative;
+}
+
+.regione {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(13, 13, 13, 0.7)
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gold;
+}
